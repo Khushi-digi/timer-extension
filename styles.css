@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Black+Ops+One&family=Delicious+Handrawn&family=Lilita+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sora:wght@100..800&family=Ubuntu:wght@300&display=swap');
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  *{
+    font-family: "Sora";
+  }
+  #timer {
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    margin: 5px;
+    width: 80px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    border: 1px solid black;
+    font-size: 15px;
+  }
+  
+  .controls button:active{
+    padding: 4px 13px;
+    font-size:13px;
+  }
+  .controls button:hover{
+    background: rgb(29, 29, 29);
+  }
+  .controls button {
+    margin: 5px;
+    background: black;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .controls{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
